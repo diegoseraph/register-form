@@ -11,40 +11,49 @@
 
     <div class="content">
         <h1>Formulário de Registro</h1>
-        <p>Esse formulário foi feito inspirado em outros forms de registro de usuário.</p>
+        <p>Esse formulário foi feito inspirado em outros forms de registro de usuário.</p><hr>
         <div class="form">
         <form action="">
-            <label for="name">Nome</label><br>
-            <input type="text" id="name"><br>
-
-            <label for="last_name">Sobrenome</label><br>
-            <input type="text" id="last_name"><br>
-
-            <label for="email">Email</label><br>
-            <input type="email" name="email" id="email"><br>
-
-            <label for="birth_day">Data de Nascimento</label><br>
-            <input type="date" name="data de nascimento" id="birth_day"><br>
-
-            <label for="gender">Gênero</label><br>
-            <input type="radio" name="genero" id="masculine">
-            <label for="masculine">Masculino</label>
-            <input type="radio" name="genero" id="feminine">
-            <label for="feminine">Feminino</label>
-            <input type="radio" name="genero" id="other">
-            <label for="other">Outro</label><br>
-
-            <label for="password">Senha</label><br>
-            <input type="password" name="senha" id="password"><br>
-
-            <label for="confirm_password">Confirme a senha</label><br>
-            <input type="password" name="confirme a senha" id="confirm_password"><br>
-
-            <button type="submit">Registrar</button>
+            <div class="nameinfo">
+                <label for="name" class="name">Nome</label>
+                <input type="text" id="name">   
+            </div>
+            <div class="nameinfo">
+                <label for="last_name" class="last_name">Sobrenome</label>
+                <input type="text" id="last_name">
+            </div>
+            
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            
+            <div class="genero">
+                <label for="gender" class="gender">Gênero</label>
+                <div class="option">
+                    <input type="radio" name="genero" id="masculine">
+                    <label for="masculine">Masculino</label>
+                    <input type="radio" name="genero" id="feminine">
+                    <label for="feminine">Feminino</label>
+                    <input type="radio" name="genero" id="other">
+                    <label for="other">Outro</label>
+                </div>
+            </div>
+            
+            <div class="senha">
+                <label for="password" class="senha">Senha</label>
+                <input type="password" name="senha" id="password">
+            </div>
+            
+            <div class="confirmasenha">
+                <label for="confirm_password" class="senha">Confirme a senha</label>
+                <input type="password" name="confirma_senha" id="confirm_password">
+            </div>
+            
+            <button type="submit">ENVIAR</button>
         </form>
     </div>
     </div>
-    
-    
+     
 </body>
 </html>
